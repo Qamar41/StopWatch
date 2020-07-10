@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Stop Watch</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        .heads{
+            color: aquamarine;
+        }
+        span{
+            color:black;
+            
+        }
+        .btns{
+            background-color:white ;
+           
+            
+        text-align: center;
+        }
+        .data{
+            font-size: large;
+            font-weight: 900;
+            font-style: oblique;
+            color: royalblue;
+        }
+        .he{
+            
+        }
+        .ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+    </style>
+  </head>
+  <body>
+      <div class="heading text-center my-5">
+
+
+        <h1 class='heads'>Stop Watch</h1>
+      </div>
+
+</div>
+<div class="container">
+ <div class="row">
+<div class="btns  rounded-circle py-5 px-3 col-lg-12 col-md-6 col-sm "> 
+    <div > 
+
+        <span class="px-4 mt-2 he">Min</span>
+        
+        <span class="px-4">Sec</span>
+       
+        <span class="px-4"> Milisec</span>
+        <hr>
+    </div>   
+<span class="px-3 data" id="mnt">00</span>
+<span class="px-3 data" >:</span>
+<span class="px-3 data" id="sec">00</span>
+<span class="px-3 data">:</span>
+<span class="px-3 data" id='msec'>00</span>
+ 
+<div class="hello py-3 px-3 text-center">
+<button class="rounded-circle px-3 " id="start" onclick="start()">Start</button>
+<button class="rounded-circle px-3" id="stop" onclick="stop()">Pause</button>
+<button class="rounded-circle px-3" onclick="reset()">Reset</button>
+</div>
+
+
+
+</div>
+
+
+
+      </div>
+    </div>
+
+  
+    <h1 class="ml9 text-center mt-5 pt-5">
+        <span class="text-wrapper">
+          <span class="letters text-secondary ">Mr & Mrs. Qamar</span>
+        </span>
+      </h1>
+     
+    
+</div>
+
+
+<script src="app.js"></script>
+ 
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+        
+
+</body>
+</html>
